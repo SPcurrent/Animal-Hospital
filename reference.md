@@ -9,3 +9,5 @@ http://happy-tabby.pepper.jp/
 ## pictures
 
 https://www.pakutaso.com/animal/cat/catphoto/index_3.html
+
+https://stocksnap.io/search/stray+cat
