@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+html{
+  font-size:100%;
+}
+body{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  line-height:1.7;
+}
+a{
+  text-decoration:none;
+  color:#432;
+}
+a:hover{
+  color:#0bd;
+}
+img{
+  max-width:100%;
+}
