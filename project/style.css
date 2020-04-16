@@ -224,12 +224,13 @@ img{
   margin-left:50px;
 }
 #access .guid img{
+  margin-top:10px;
   height:600px;
 }
 
 /*footer*/
 #foot{
-  margin-top:40px;
+  margin-top:60px;
   text-align:justify;
 }
 #foot .wrapper{
@@ -239,6 +240,14 @@ img{
 }
 #foot .foot-box{
   width:35%;
+  margin:0 2%;
+}
+#foot .copyright{
+  max-width:1100px;
+  margin:0 auto;
+  padding:10px 4% 0;
+  text-align:center;
+  background-color:#7acbe1;
 }
 
 
@@ -250,4 +259,57 @@ img{
   margin-top:15px;
   margin-left:50px;
   margin-bottom:80px;
+}
+#document .page-header{
+  border-bottom:5px solid #7abce1;
+}
+#list{
+  margin-top:20px;
+}
+
+
+/*------------------------------------------------*/
+
+
+@media(max-width:600px){
+  .content-info img{
+    width:30px;
+    height:30px;
+    margin-right:10px;
+  }
+  .content-title{
+    font-size:1rem;
+  }
+
+  #home .page-header{
+    flex-direction:column;
+    align-items:center;
+  }
+  #home img{
+    width:300px;
+    min-width:100px;
+  }
+  #home .main-nav{
+    font-size:1rem;
+    margin-top:0px;
+  }
+  #home .main-nav li{
+    margin:0 15px;
+  }
+  #home .content{
+    font-size:1.6rem;
+    font-weight:normal;
+    color:#ff8200;
+    padding-top:22%;
+  }
+
+  #greet{
+    margin-top:25px;
+  }
+  #greet p{
+    margin-top:3px;
+    margin-left:25px;
+    margin-right:30px;
+    font-size:0.875rem;
+  }
 }

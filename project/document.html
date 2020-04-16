@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="ja">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163697813-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-163697813-1');
+    </script>
+
     <meta charset="utf-8">
     <title>どらにゃんクリニック 書類一覧</title>
     <meta name="description" content="どらにゃんクリニックの事前記入可能な書類一覧です">
@@ -51,7 +60,11 @@
         <h1><a href="index.html"><img class="logo" src="images/Tra.png" alt="どらにゃんクリニック"></a></h1>
       </header>
 
-      <div class="wrapper">
+      <div id="list" class="wrapper">
+        <header class="content-info">
+          <img src="images/favtra.png">
+          <h2>一覧</h2>
+        </header>
         <ul>
           <li><a href="documents/guid.pdf">当院ご利用ガイド(pdf)</a></li>
           <li><a href="documents/contact.pdf">予約の取り方(pdf)</a></li>
@@ -65,23 +78,30 @@
 
 
 
-      <footer>
+      <footer id="foot">
         <div class="wrapper">
-          <div foot-box>
+          <div class="foot-box">
+            <a href="index.html"><img src="images/Tra2.png" alt=""></a>
             <div>
               問い合わせ
               <p><a href="https://lin.ee/fVzWFkU">https://lin.ee/fVzWFkU</a></p>
               <p><a href="mailto:251ousin@gmail.com">251ousin@gmail.com</a></p>
             </div>
             <div>
-              〒651-1113神戸市北区鈴蘭台南町3-9-3-102号室
+              <a href="https://www.google.co.jp/maps/place/%E3%80%92651-1113+%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%A5%9E%E6%88%B8%E5%B8%82%E5%8C%97%E5%8C%BA%E9%88%B4%E8%98%AD%E5%8F%B0%E5%8D%97%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%93/@34.7238576,135.137702,19z/data=!3m1!4b1!4m5!3m4!1s0x6000863199ec5bd1:0x2e560a5547039588!8m2!3d34.7238565!4d135.1382505?hl=ja&authuser=0">〒651-1113<br>神戸市北区鈴蘭台南町3-9-3-102号室</a>
             </div>
           </div>
-          <div foot-box>
-            リンク
+          <div class="foot-box">
+            <a class="twitter-timeline" data-width="400" data-height="370" data-chrome="noheader nofooter" href="https://twitter.com/SPcurrent/timelines/1244186455888392193?ref_src=twsrc%5Etfw">doranyann - Curated tweets by SPcurrent</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="ツイートの反映には時間がかかります" data-url="https://sunnyday-doranyann.ssl-lolipop.jp/" data-hashtags="どらにゃん" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
-          <p><small>Copyright&copy;2020- Doranyan Clinic</small></p>
+          <div class="foot-box">
+            <a href=""><img src="images/mesen.jpg" alt="ねこから目線。お手伝い屋さん"></a>
+            <a href=""><img src="images/osaka.png" alt="大阪ねこの会" class="osaka"></a>
+            <a href=""><img src="images/iti.jpg" alt="一犬猫病院" class="iti"></a>
+          </div>
         </div>
+        <p class="copyright"><small>Copyright&copy;2020- Doranyan Clinic</small></p>
       </footer>
     </div>
   </body>
