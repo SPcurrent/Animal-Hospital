@@ -9,10 +9,14 @@ body{
 }
 a{
   text-decoration:none;
-  color:#0bd;
+  color:#0073dd;
+}
+a .brown{
+  text-decoration:none;
+  color:#432;
 }
 a:hover{
-  color:#432;
+  color:#0bd;
 }
 img{
   max-width:100%;
