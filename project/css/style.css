@@ -9,10 +9,10 @@ body{
 }
 a{
   text-decoration:none;
-  color:#432;
+  color:#0bd;
 }
 a:hover{
-  color:#0bd;
+  color:#432;
 }
 img{
   max-width:100%;
