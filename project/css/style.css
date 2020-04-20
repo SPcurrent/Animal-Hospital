@@ -9,6 +9,10 @@ body{
 }
 a{
   text-decoration:none;
+  color:#0073dd;
+}
+.brown a{
+  text-decoration:none;
   color:#432;
 }
 a:hover{
