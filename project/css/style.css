@@ -101,9 +101,12 @@ img{
 }
 #act .grid{
   display:grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:repeat(2, minmax(360px,1fr));
   gap:10px;
   width:800px;
+  max-width:1100px;
+  margin:0 auto;
+  padding:0 4%;
 }
 #act .grid h2{
   font-size:2.5rem;
@@ -123,21 +126,24 @@ img{
 }
 #act .neuter img{
   object-fit:cover;
-  width:80%;
+  width:90%;
   padding-top:8%;
   padding-left:18%;
 }
 #act .vaccinate img{
   object-fit:cover;
-  width:75%;
+  width:70%;
   padding-top:9%;
   padding-left:22%;
 }
 #act .return img{
   object-fit:cover;
-  width:80%;
+  width:75%;
   padding-top:3%;
-  padding-left:15%;
+  padding-left:20%;
+}
+#act .wiki{
+  text-align:right;
 }
 
 /*news*/
@@ -169,6 +175,12 @@ img{
 #schedule{
   margin-top:70px;
   text-align:justify;
+}
+#schedule p{
+    margin-top:5px;
+    margin-left:60px;
+    font-size:1.125rem;
+    line-height:1.7;
 }
 #schedule iframe{
   margin-top:5px;
@@ -205,12 +217,14 @@ img{
 }
 #contact .documents{
   list-style:none;
-  margin-bottom:15px;
   font-size:1.125rem;
 }
 #contact p{
   font-size:1.125rem;
   line-height:1.7;
+}
+#contact .bottom{
+  margin-bottom:15px;
 }
 
 /*access*/
@@ -315,5 +329,51 @@ img{
     margin-left:25px;
     margin-right:30px;
     font-size:0.875rem;
+  }
+
+  #act{
+    margin-top:30px;
+  }
+  #act p{
+    margin-top:3px;
+    margin-left:25px;
+    margin-right:30px;
+    font-size:0.875rem;
+  }
+  #act .grid{
+    grid-template-columns:repeat(1, minmax(360px,360px));
+    width:370px;
+    margin-right:5px;
+  }
+  #act .grid h2{
+    font-size:1.7rem;
+    text-align:left;
+    margin-left:25px;
+  }
+  #act .grid h3{
+    font-size:1rem;
+    font-weight:normal;
+    text-align:left;
+    margin-left:50px;
+  }
+  #act .trap img{
+    width:90%;
+    padding-top:5%;
+  }
+  #act .neuter img{
+    width:80%;
+    padding-top:5%;
+  }
+  #act .vaccinate img{
+    width:70%;
+    padding-top:5%;
+    padding-left:30%;
+  }
+  #act .return img{
+    width:70%;
+    padding-top:0%;
+  }
+  #news{
+    margin-top:30px;
   }
 }
