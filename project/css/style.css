@@ -405,7 +405,7 @@ img{
   }
   #schedule iframe{
     margin-left:5px;
-    width:350px;
+    width:340px;
     height:300px;
   }
 
@@ -459,5 +459,17 @@ img{
   }
   #access .guid img{
     height:230px;
+  }
+
+  #foot{
+    margin-top:50px;
+    font-size:0.875rem;
+  }
+  #foot .wrapper{
+    padding-top:30px;
+    flex-direction:column;
+  }
+  #foot .foot-box{
+    width:95%;
   }
 }
