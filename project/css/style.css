@@ -182,6 +182,11 @@ img{
 .timewhat{
   display: flex;
 }
+.news-log{
+  text-align:right;
+  margin-right:70px;
+  font-size:1.125rem;
+}
 
 /*external*/
 #schedule{
@@ -394,6 +399,10 @@ img{
     margin-right:25px;
     padding-left:15px;
     padding-right:15px;
+    font-size:0.875rem;
+  }
+  .news-log{
+    margin-right:25px;
     font-size:0.875rem;
   }
 
