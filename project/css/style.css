@@ -179,6 +179,9 @@ img{
   border-width:1px 0 1px;
   border-color:#7acbe1;
 }
+.timewhat{
+  display: flex;
+}
 
 /*external*/
 #schedule{
