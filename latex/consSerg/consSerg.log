@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  9 JUN 2020 21:59
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  9 JUN 2020 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./untitled-4.tex
-(./untitled-4.tex
+**./consSerg.tex
+(./consSerg.tex
 pLaTeX2e <2017/10/28>+4 (based on LaTeX2e <2017-04-15>)
 Babel <3.17> and hyphenation patterns for 84 language(s) loaded.
 (c:/texlive/2017/texmf-dist/tex/platex/jsclasses/jsarticle.cls
@@ -892,8 +892,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen287
 \Gm@layoutvoffset=\dimen288
 \Gm@dimlist=\toks31
-) (./untitled-4.aux)
-\openout1 = `untitled-4.aux'.
+)
+No file consSerg.aux.
+\openout1 = `consSerg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
@@ -913,7 +914,7 @@ LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
- (c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+(c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 57.
@@ -1065,14 +1066,14 @@ LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
 (Font)              scaled to size 5.5481pt on input line 73.
  [1
 
-] (./untitled-4.aux) ) 
+] (./consSerg.aux) ) 
 Here is how much of TeX's memory you used:
- 18952 strings out of 493638
- 359548 string characters out of 6151702
- 407164 words of memory out of 5000000
+ 18950 strings out of 493638
+ 359504 string characters out of 6151702
+ 407160 words of memory out of 5000000
  22359 multiletter control sequences out of 15000+600000
  593568 words of font info for 119 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 36i,4n,38p,10375b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,4n,38p,10373b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on untitled-4.dvi (1 page, 4796 bytes).
+Output written on consSerg.dvi (1 page, 4796 bytes).
