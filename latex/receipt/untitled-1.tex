@@ -1,0 +1,119 @@
+\documentclass[b5paper]{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+	
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\renewcommand\kanjifamilydefault{\gtdefault}	
+\renewcommand\familydefault{\sfdefault}			
+
+\pagestyle{empty}
+
+\usepackage[top=5truemm,bottom=0truemm,left=20truemm,right=20truemm]{geometry}
+
+
+\begin{document}
+\centering
+\Large
+受付票
+\large
+\begin{flushright}
+No.\underline{\hspace{70pt}}
+\end{flushright}
+\vspace{-20pt}
+\begin{table}[htbp]
+	\captionsetup{labelformat=empty,labelsep=none}
+	\caption{}
+	\label{}
+	\begin{flushleft}
+	\large
+	\begin{tabular}{l||l}
+	\multicolumn{2}{l}{氏名}  \\
+	\multicolumn{2}{l}{}  \\
+	\multicolumn{2}{l}{住所}  \\
+	\multicolumn{2}{l}{}  \\
+	\multicolumn{2}{l}{電話番号（\hspace{40pt}）}  \\
+	\multicolumn{2}{l}{}  \\ \hline 
+	\multicolumn{2}{l}{飼い猫・保護猫・外猫 \hspace{10pt} ♂・♀ \hspace{15pt} 色柄 \hspace{50pt}年齢}  \\ \hline
+	耳カット & 体重\hspace{20pt}kg  \\
+	ノミダニ予防 & 眼 \\
+	混合ワクチン & \\
+	ウイルスチェック（FIV・FeLV） & \\
+	糞便検査 & 耳 \\
+	点滴 & \\
+	投薬可/否：内服・点眼・塗り薬 & \\
+	耳掃除 & 鼻 \\
+	爪切り（リリース不可） & \\
+	 & 口 \\
+	 & \\
+	 & \\
+	 & 歯 \\
+	 & \\
+	 & \\
+	 & 爪または指 \\
+	 & \\
+	 & \\
+	 & 皮膚または被毛 \\
+	 & \\
+	 & \\
+	 & 特記 \\
+	 & \hspace{10pt} 臍ヘルニア \\
+	 & \hspace{10pt} 鼠径ヘルニア \\
+	 & \hspace{10pt} 呼吸 \\
+	 & \hspace{10pt} 覚醒 \\
+	\end{tabular}
+	\end{flushleft}
+\end{table}
+
+
+
+
+
+
+
+
+
+\end{document}

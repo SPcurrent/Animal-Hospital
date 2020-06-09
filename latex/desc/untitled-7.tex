@@ -1,0 +1,132 @@
+\documentclass[b6paper]{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+	
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\pagestyle{empty}
+
+\usepackage[top=10truemm,bottom=0truemm,left=5truemm,right=5truemm]{geometry}
+
+
+\begin{document}
+
+\begin{center}
+\Large
+明細書
+\end{center}
+
+\large
+$\underline{\hspace{100pt}}$様
+
+\begin{flushright}
+\normalsize
+\vspace{-23pt}
+年\hspace{20pt}月\hspace{20pt}日
+\end{flushright}
+\vspace{-40pt}
+\begin{table}[htbp]
+	\captionsetup{labelformat=empty,labelsep=none}
+	\caption{}
+	\label{}
+	\begin{center}
+	\small
+	\begin{tabular}{c|c|c}  \toprule
+	項目 & 内容 & 金額（税込）  \\ \hline
+	麻酔・鎮痛 & \hspace{100pt} & \\
+	手術（耳カットあり） &  & \\
+	手術（耳カットなし） &  & \\
+	耳カットのみ &  & \\
+	診察 &  & \\
+	往診 &  & \\
+	お預かり &  & \\
+	予防接種 &  & \\
+	ノミダニ駆除 &  & \\
+	ウイルスチェック（採血込） &  & \\
+	糞便検査 &  & \\
+	点滴 &  & \\
+	注射 &  & \\
+	処置 &  & \\
+	 &  & \\
+	内用薬 &  & \\
+	 &  & \\
+	外用薬 &  & \\
+	 &  & \\
+	 &  & \\
+	 &  & \\
+	 &  & \\
+	 &  & \\
+	 &  & \\
+	合計 &  & \\  \bottomrule
+	 \end{tabular}
+	 \end{center}
+\end{table}
+\small
+
+
+\vspace{-20pt}
+
+%\begin{wrapfigure}[2]{l}{20mm}
+%	\begin{flushleft}
+%	\vspace*{-\intextsep}
+%	\includegraphics[width=20mm]{z4.jpg}
+%	\captionsetup{labelformat=empty,labelsep=none}
+%	\caption{}
+%	\label{}
+%	\end{flushleft}
+%\end{wrapfigure}
+%\vspace{20pt}
+\flushright
+\hspace{100pt}税込合計金額$\underline{\yen \hspace{70pt}}$
+\vspace{5pt}
+
+\hspace{150pt}どらにゃんクリニック
+
+
+
+
+
+\end{document}

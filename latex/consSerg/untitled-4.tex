@@ -1,0 +1,103 @@
+\documentclass{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+	
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\renewcommand\kanjifamilydefault{\gtdefault}
+\renewcommand\familydefault{\sfdefault}
+
+\pagestyle{empty}	
+
+\usepackage[top=20truemm,bottom=15truemm,left=25truemm,right=25truemm]{geometry}
+
+\begin{document}
+
+\begin{center}
+\Huge
+\vspace{-100pt}
+手術同意書
+\end{center}
+
+\vspace{10pt}
+\Large
+\noindent どらにゃんクリニック	院長	中野	綾子	殿
+
+\vspace{10pt}
+\large
+
+\begin{description}
+  \item[$\square$1.] 猫の雌雄に関わらず手術を行うことに異議を申しません。
+  \item[$\square$2.] 野良猫に避妊去勢手術を施しリターンする場合には, 猫の耳にV字カットを施すことに異議を申しません。またV字の大きさ・形は当院に一任します。
+
+  \item[$\square$3.] 手術前に血液検査を行わないことを承知しており, 血液検査を行うことで回避できた可能性のある手術中および手術後に発生した事態については異議を申しません。
+  \item[$\square$4.] 獣医学的知識に基づき適正な施術が施されたにも関わらず発生した不測の事態については異議を申しません。（例：麻酔薬に対するアレルギー反応・血液凝固異常・癒合不全・縫合糸に対するアレルギー反応など）
+  \item[$\square$5.] 救命措置に対して発生した費用は猫の生死に関わらず支払うことを承知しています。
+  \item[$\square$6.] 適正な管理が行われたにも関わらず猫の預かり中に発生した猫の逃亡, 損傷及び死亡については異議を申しません。
+  \item[$\square$7.] 手術中に潜在精巣や子宮蓄膿症など生殖器に関わる疾患や臍ヘルニアが発覚した場合, 事前連絡なしに処置を行うことに異議を申しません。その際に処置費用が必要であることを承知しています。
+  \item[$\square$8.] 手術中に妊娠していることが発覚した場合, 事前連絡なしに堕胎することに異議を申しません。その際に別途堕胎費用が掛かることを承知しています。
+  \item[$\square$9.]\hspace{-5pt}妊娠している猫が預かり中に院内で出産した場合, 仔猫は私が引き取る必要があることを承知しています。
+  \item[$\square$10.]\hspace{-5pt}施術済みかどうかは獣医学的知識に基づいて判断することに異議を申しません。
+  \item[$\square$11.]\hspace{-5pt}メス:異所性卵巣・副卵巣など通常とは異なる部位に存在する卵巣は見つけることが困難で避妊手術後に再発情が起こることで発覚することが多いことを承知しています。このことが原因で再手術が必要な場合, 別途費用が発生することを承知しています。
+  \item[$\square$12.]\hspace{-5pt}オス:潜在精巣と思われる場合は, 開腹手術となり別途費用が掛かることを承知しています。
+  \item[$\square$13.]\hspace{-5pt}施術を受けるにあたって他の猫への感染防止の意味も含めノミ・ダニ駆除を必ず行うことを承知しています。その際に駆除薬の費用が必要であることを承知しています。
+  \item[$\square$14.]\hspace{-5pt}保護猫・飼い猫は縫合した糸をなめ取って傷が開くことがあるためエリザベスカラーや腹帯の装着の必要があることを承知しています。
+  \item[$\square$15.]\hspace{-5pt}私は診察をを希望しないため, 現在の猫の状態把握や身体検査はお断りします。このため診察を行うことで回避できた可能性のある手術中および手術後に発生した事態については異議を申しません。
+\end{description}
+
+
+\begin{flushright}
+年\hspace{40pt}月\hspace{40pt}日
+
+\vspace{20pt}
+氏名\underline{\hspace{205pt}}
+\end{flushright}
+
+
+
+
+
+\end{document}

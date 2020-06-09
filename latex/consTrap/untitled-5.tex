@@ -1,0 +1,107 @@
+\documentclass{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+	
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\renewcommand\kanjifamilydefault{\gtdefault}
+\renewcommand\familydefault{\sfdefault}
+
+\pagestyle{empty}	
+
+
+
+\begin{document}
+
+\begin{center}
+\Huge
+捕獲器借り受け同意書
+\end{center}
+
+\vspace{40pt}
+\Large
+\noindent どらにゃんクリニック	院長	中野	綾子	殿
+
+\vspace{20pt}
+\large
+
+\begin{description}
+  \item[$\square$1.] 野良猫の避妊去勢手術を行うために, 捕獲器を借り受け致します。
+  \item[$\square$2.] 上記の目的以外に捕獲器を利用致しません。
+  \item[$\square$3.] 借り受けた捕獲器は第三者に又貸し致しません。
+  \item[$\square$4.] 捕獲器の借り受け期間（最大1週間）を遵守致します。
+  \item[$\square$5.] 紛失または盗難により捕獲器を返却できない場合は, 同等の捕獲器を購入する際に発生する費用を弁償致します。
+  \item[$\square$6.] 捕獲器を設置する際には, その土地の所有者に許可を得たうえで設置致します。
+  \item[$\square$7.] 捕獲器を設置中は, 捕獲器を監視する, あるいは私の氏名と連絡先を明記し, 捕獲された猫が放置されることのないように致します。
+  \item[$\square$8.] 借り受けるに当たって私の身分証明書を提示致します。
+  \begin{description}
+    \item[\small $\square$] \large 健康保険証 \small No.
+    \item[$\square$] \large 免許証 \small No.
+    \item[$\square$] \large パスポート \small No.
+  \end{description}
+  \item[$\square$9.] 使用した捕獲器は洗浄, 消毒, 乾燥してから返却致します。
+  \item[$\square$10.]\hspace{-5pt}上記の項目のいずれかに違反をした場合, 今後一切捕獲器を借り受けできないことを承知しています。
+\end{description}
+
+\vspace{20pt}
+私は, 以上の内容に同意し, どらにゃんクリニックの捕獲器を借り受け致します。
+
+\vspace{120pt}
+\begin{flushright}
+年\hspace{40pt}月\hspace{40pt}日
+
+\vspace{20pt}
+氏名\underline{\hspace{205pt}}
+
+\vspace{10pt}
+返却予定日\underline{\hspace{60pt}年\hspace{40pt}月\hspace{40pt}日}
+\end{flushright}
+
+
+
+
+
+\end{document}
