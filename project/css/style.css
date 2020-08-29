@@ -313,9 +313,15 @@ img{
 }
 #training dt{
   float:left;
-  width:100px;
+  width:130px;
 }
 #training dd{
+}
+#training ul{
+  list-style:none;
+}
+#training li{
+  margin-left:150px;
 }
 
 
