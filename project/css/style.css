@@ -303,6 +303,28 @@ img{
 }
 
 
+
+/*Training.html*/
+#training dl{
+  font-size:1.125rem;
+  margin-top:15px;
+  margin-left:30px;
+  margin-bottom:30px;
+}
+#training dt{
+  float:left;
+  width:130px;
+}
+#training dd{
+}
+#training ul{
+  list-style:none;
+}
+#training li{
+  margin-left:150px;
+}
+
+
 /*------------------------------------------------*/
 
 
