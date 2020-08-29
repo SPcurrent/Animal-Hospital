@@ -1,0 +1,89 @@
+\documentclass[b5paper]{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+	
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\renewcommand\kanjifamilydefault{\gtdefault}	
+\renewcommand\familydefault{\sfdefault}			
+
+\pagestyle{empty}
+
+
+\begin{document}
+\Huge
+
+当院ご利用ガイド\vspace{10pt}
+
+\Large
+
+当院は猫の安全を第1に考えております。この為、以下の事柄にご同意頂ける方のみ手術を受け付けております。\vspace{20pt}
+
+
+\noindent 1)捕獲器でご来院ください。（鎮静・鎮痛・麻酔をかけた時に猫の状態の変化を把握するためです。キャリーでは中の様子が分かりづらいため麻酔事故に繋がる可能性がありますので、ご協力ください。）\vspace{5pt}
+
+
+\noindent 2)できるだけ胃を空っぽの状態にしてください。（可能な限り絶食絶水してください）\vspace{-2pt}
+
+\begin{large}注)仔猫は来院2時間前まで飲食可能です。\end{large}\vspace{5pt}
+
+
+\noindent 3)授乳中の猫は当日お迎えの場合のみ受け付けます。
+
+
+\noindent 4)捕獲器は綺麗に拭いてからご来院ください。（感染症拡大防止にご協力ください。）\vspace{5pt}
+
+
+\noindent 5)基本的に当日お迎えです。麻酔から覚めたらご連絡致しますのでお迎えをお願いします。（リリースは翌日にお願いします）
+
+
+\vspace{25pt}
+\flushright どらにゃんクリニック
+
+
+
+
+\end{document}

@@ -1,0 +1,126 @@
+\documentclass{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+	
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\renewcommand\kanjifamilydefault{\gtdefault}	
+\renewcommand\familydefault{\sfdefault}			
+
+\pagestyle{empty}
+
+
+\begin{document}
+\huge
+\begin{center}
+ご挨拶
+\end{center}
+\hspace{10pt}どらにゃんクリニックの獣医師 中野綾子 です。
+
+\noindent 猫ちゃんの保健所行きを減らしたい!
+
+\noindent お家の近くで際限なく増えていく猫ちゃんを
+
+\noindent なんとかしたい!そんな思いから当院を設立しました。
+
+
+\begin{wrapfigure}[1]{r}{80mm}
+	\vspace*{-70pt}
+	\begin{minipage}{0.2\columnwidth}
+		\centering
+		\includegraphics[width=\columnwidth]{z9.jpg}
+		\captionsetup{labelformat=empty,labelsep=none}
+		\caption{}
+		\label{}
+	\end{minipage}
+	\begin{minipage}{0.2\columnwidth}
+		\centering
+		\includegraphics[width=\columnwidth]{z7.jpg}
+		\captionsetup{labelformat=empty,labelsep=none}
+		\caption{}
+		\label{}
+	\end{minipage}
+\end{wrapfigure}
+
+\vspace{60pt}
+～TNVRとは～
+\vspace{50pt}
+
+\noindent 猫ちゃんを\.{T}uつかまえて, \.{N}i妊娠しないように
+
+\noindent 手術をして\.{V}yo病気の予防をして（ワクチン接種のことです）
+
+\noindent \.{R}eturnもといた場所に帰す活動のことです。
+
+\begin{figure}[htbp]
+	\centering
+	\begin{minipage}{0.25\columnwidth}
+		\centering
+		\includegraphics[width=\columnwidth]{z10.jpg}
+		\captionsetup{labelformat=empty,labelsep=none}
+		\caption{}
+		\label{}
+	\end{minipage}
+	\begin{minipage}{0.25\columnwidth}
+		\centering
+		\includegraphics[width=\columnwidth]{z11.jpg}
+		\captionsetup{labelformat=empty,labelsep=none}
+		\caption{}
+		\label{}
+	\end{minipage}
+		\begin{minipage}{0.45\columnwidth}
+		\centering
+		\includegraphics[width=\columnwidth]{z12.jpg}
+		\captionsetup{labelformat=empty,labelsep=none}
+		\caption{}
+		\label{}
+	\end{minipage}
+\end{figure}
+
+
+
+
+\end{document}
