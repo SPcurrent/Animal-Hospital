@@ -1,0 +1,79 @@
+\documentclass[b5paper]{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+	
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\renewcommand\kanjifamilydefault{\gtdefault}	
+\renewcommand\familydefault{\sfdefault}			
+
+\pagestyle{empty}
+
+
+\begin{document}
+\huge
+
+予約の取り方\vspace{20pt}
+
+\Large
+
+
+\noindent 1)1週間前から受け付けます。\vspace{5pt}
+
+\noindent 2)できるだけ胃を空っぽの状態にしてください。（可能な限り絶食絶水してください）\vspace{5pt}
+
+\noindent 3)本名(フルネーム)、住所、電話番号、希望日時、捕獲済の猫の頭数、元気、食欲など分かる範囲で構いませんのでお知らせください。（こちらからの返信がない場合は予約が確定しておりません。返信までにお時間頂く場合もございますがお待ちください。）\vspace{5pt}
+
+\noindent 4)リリース予定の猫は捕獲済の方の予約を優先的にお取り致します。捕獲していない時点の予約は仮予約扱いになります。\vspace{5pt}
+
+
+\vspace{25pt}
+\flushright どらにゃんクリニック
+
+
+
+
+\end{document}
