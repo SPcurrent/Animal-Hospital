@@ -1,0 +1,118 @@
+\documentclass[b5paper]{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+	
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\renewcommand\kanjifamilydefault{\gtdefault}	
+\renewcommand\familydefault{\sfdefault}			
+
+\pagestyle{empty}
+
+
+
+\begin{document}
+
+
+
+\begin{figure}[htbp]
+	\begin{flushleft}
+		\includegraphics[width=12cm]{z1.jpg}
+		\captionsetup{labelformat=empty,labelsep=none}
+		\caption{}
+		\label{}
+	\end{flushleft}
+\end{figure}
+
+\HUGE
+
+\begin{center}
+\vspace{-50pt}
+お知らせ
+\end{center}
+
+\LARGE
+
+\noindent 鈴蘭台南町でTNR病院を始めます!(2月中旬予定)
+
+\noindent 殺処分zeroを目指してネコのために頑張ります!
+
+\noindent 現在は大阪ねこの会とともに毎月開催される一斉手術に参加しています。年間約1000頭の避妊去勢手術をしています。
+
+\noindent ネコが増えてお困りの方は、ご相談ください。
+
+\noindent またTNR活動にご興味のある方や、始めてみたい方も一度お問い合わせください。
+
+
+
+\begin{wrapfigure}[3]{l}{50mm}
+	\vspace*{-\intextsep}
+	\includegraphics[width=50mm]{z3.jpg}
+	\captionsetup{labelformat=empty,labelsep=none}
+	\caption{}
+	\label{}
+\end{wrapfigure}
+
+\hspace{50pt}どらにゃんクリニック
+
+\hspace{90pt}院長　中野 綾子
+
+\hspace{70pt}251ousin@gmail.com
+
+
+\begin{figure}[htbp]
+	\begin{flushright}
+		\includegraphics[width=12cm]{z2.jpg}
+		\captionsetup{labelformat=empty,labelsep=none}
+		\caption{}
+		\label{}
+	\end{flushright}
+\end{figure}
+
+
+
+
+\end{document}

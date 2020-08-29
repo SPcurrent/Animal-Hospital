@@ -1,0 +1,94 @@
+\documentclass[b6paper,landscape]{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+	
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\pagestyle{empty}
+
+\usepackage[top=8truemm,bottom=10truemm,left=18truemm,right=15truemm]{geometry}
+
+\begin{document}
+\begin{center}
+\Large
+VACCINATION CERTIFICATE
+
+予防接種証明書
+\end{center}
+\vspace{-10pt}
+\begin{table}[htbp]
+	\captionsetup{labelformat=empty,labelsep=none}
+	\caption{}
+	\label{}
+	\begin{center}
+	\normalsize
+	\begin{tabular}{|lclrl|c}  \cline{1-5}
+	飼主名 &  & \hspace{20pt}様\hspace{100pt} & \multicolumn{2}{l|}{} &  \\ \cline{1-5}
+	住\hspace{10pt}所 &  & \multicolumn{3}{c|}{} &  \\ \cline{1-5}
+	名\hspace{10pt}前 &  & ちゃん & カルテNo. \hspace{20pt} & \hspace{30pt} &  \\ \cline{1-5}
+	種\hspace{10pt}別 & \multicolumn{4}{c|}{} & \\ \cline{1-5}
+	生年月日 & \multicolumn{2}{c}{} & 性別 \hspace{20pt} &  & \\ \cline{1-5}
+	\multicolumn{2}{|c|}{接種したワクチンの種類} & \multicolumn{2}{c}{} &  & \\ 
+	\multicolumn{2}{|r|}{接種年月日} &  &  &  & \\ \cline{1-5}
+	\multicolumn{3}{|l}{犬パルボウイルス感染症\hspace{50pt}犬アデノウイルス2型感染症} &  &  & \\
+	\multicolumn{3}{|l}{犬ジステンバー\hspace{87pt}犬コロナウイルス感染症} &  &  & \\
+	\multicolumn{3}{|l}{犬パラインフルエンザ\hspace{59pt}犬レプトスピラ病} & \multicolumn{2}{r|}{どらにゃんクリニック} \\
+	\multicolumn{3}{|l}{犬伝染性肝炎} & 獣医師\hspace{20pt} & 中野綾子 &  \\ \cline{1-5}
+	\end{tabular}
+	\end{center}
+\end{table}
+\vspace{-20pt}
+
+\begin{wrapfigure}[3]{r}{20mm}
+	\vspace*{-\intextsep}
+	\includegraphics[width=20mm]{z4.jpg}
+	\captionsetup{labelformat=empty,labelsep=none}
+	\caption{}
+	\label{}
+\end{wrapfigure}
+上記の通り接種したことを証明します。
+
+\end{document}
