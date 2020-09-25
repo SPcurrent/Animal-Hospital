@@ -1,0 +1,87 @@
+\documentclass{jsarticle}
+
+\usepackage{titlesec}
+	\titleformat*{\section}{\large\bfseries}
+	\titleformat*{\subsection}{\normalsize\bfseries}
+
+\usepackage[format=hang,font=normalsize]{caption}
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+	\@addtoreset{figure}{section}
+\makeatother
+
+\usepackage[dvipdfmx]{graphicx}
+\makeatletter
+	\renewcommand{\thetable}{\thesection.\arabic{table}}
+	\@addtoreset{table}{section}
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+\makeatother
+
+\usepackage[version=3]{mhchem}
+\usepackage{textcomp}
+\usepackage{mathcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{tensor}
+\usepackage{exscale}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+
+\usepackage{okumacro}
+\usepackage{pxrubrica}
+\newcommand{\Slash}[1]{{\looaloign{\hfil/\hfil\crcr$#1$}}}
+\usepackage{otf}
+\usepackage{pifont}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage{url}
+
+\pagestyle{empty}
+
+\renewcommand\kanjifamilydefault{\gtdefault}
+\renewcommand\familydefault{\sfdefault}
+
+\begin{document}
+\Huge
+  猫には避妊去勢手術を!
+
+\Large
+  家猫, 外猫を問わず, 避妊去勢手術を受けさせましょう。
+
+  *純血種等で繁殖させたい方は対象外です。
+
+  衝撃!事例報告!
+
+  生後約3か月半で保護された雌猫ちゃん, 保護期間中に3日間脱走して帰ってきたんですが...生後半年を待たずに出産してしまいました。元気に子猫を2ひき育てています。
+
+  *保護期間中とは, 保護してから約1か月のことです。
+
+	このように脱走して数日間, 帰ってこなければ, ほぼ100\%妊娠します。
+
+  どらにゃんクリニックは神戸市管理票やどうぶつ基金のチケットが使えます。
+
+
+
+
+\newpage
+\Huge
+  1\si{\kilogram}あれば手術できます!
+
+\Large
+  子猫は痛みや麻酔のリスクが少なく, 傷口も小さいので回復が早いです。術後2-3時間でご飯を食べたり遊んだりする子が多いです。
+\end{document}
