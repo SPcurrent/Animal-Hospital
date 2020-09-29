@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  29 SEP 2020 17:45
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  29 SEP 2020 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,39 +1027,39 @@ LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 64.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 64.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 83.
 
 
 (c:/texlive/2017/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 88.
+(Font)              <14.4> on input line 87.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 88.
+(Font)              scaled to size 13.31541pt on input line 87.
  [1
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 104.
+(Font)              <24.88> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 104.
+(Font)              <20.74> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 104.
+(Font)              <17.28> on input line 103.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 104.
+(Font)              scaled to size 23.0061pt on input line 103.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 104.
+(Font)              scaled to size 19.17792pt on input line 103.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 104.
+(Font)              scaled to size 15.9785pt on input line 103.
  [2] (./cm3.aux) ) 
 Here is how much of TeX's memory you used:
- 18857 strings out of 493638
- 357735 string characters out of 6151702
+ 18858 strings out of 493638
+ 357749 string characters out of 6151702
  393331 words of memory out of 5000000
- 22241 multiletter control sequences out of 15000+600000
- 599357 words of font info for 129 fonts, out of 8000000 for 9000
+ 22242 multiletter control sequences out of 15000+600000
+ 599687 words of font info for 130 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  36i,5n,38p,10368b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cm3.dvi (2 pages, 2344 bytes).
+Output written on cm3.dvi (2 pages, 2824 bytes).
