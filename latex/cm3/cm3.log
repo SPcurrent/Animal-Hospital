@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  29 SEP 2020 23:25
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  30 SEP 2020 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1123,23 +1123,27 @@ LaTeX Font Info:    Try loading font information for TS1+lmss on input line 140
 (c:/texlive/2017/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+File: 6.jpg Graphic file (type bmp)
+<6.jpg>
+File: 7.jpg Graphic file (type bmp)
+<7.jpg>
 File: 5.jpg Graphic file (type bmp)
 <5.jpg>
 File: URLdoranyan.png Graphic file (type bmp)
 <URLdoranyan.png>
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 169.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 177.
 
 
 (c:/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [2] (./cm3.aux) ) 
 Here is how much of TeX's memory you used:
- 19413 strings out of 493638
- 365987 string characters out of 6151702
+ 19421 strings out of 493638
+ 366099 string characters out of 6151702
  412781 words of memory out of 5000000
- 22760 multiletter control sequences out of 15000+600000
+ 22764 multiletter control sequences out of 15000+600000
  595348 words of font info for 124 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  36i,5n,38p,10368b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cm3.dvi (2 pages, 4056 bytes).
+Output written on cm3.dvi (2 pages, 4320 bytes).
