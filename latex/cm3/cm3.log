@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  30 SEP 2020 21:20
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  30 SEP 2020 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,43 +1081,41 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: Tra2.png Graphic file (type bmp)
 <Tra2.png>
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 70.
+(Font)              scaled to size 23.0061pt on input line 71.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 70.
+(Font)              scaled to size 23.0061pt on input line 71.
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 74.
+(Font)              scaled to size 13.31541pt on input line 75.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 74.
+(Font)              scaled to size 13.31541pt on input line 75.
 File: 2.jpg Graphic file (type bmp)
 <2.jpg>
 File: 1.jpg Graphic file (type bmp)
 <1.jpg>
-File: qr.jpg Graphic file (type bmp)
-<qr.jpg>
- [1
-
-]
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 114.
+(Font)              scaled to size 19.17792pt on input line 102.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 114.
+(Font)              scaled to size 19.17792pt on input line 102.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 115.
+(Font)              <20.74> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 115.
+(Font)              <14.4> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 115.
+(Font)              <12> on input line 103.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 115.
+(Font)              scaled to size 19.17792pt on input line 103.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 115.
+(Font)              scaled to size 13.31541pt on input line 103.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 115.
+(Font)              scaled to size 11.09619pt on input line 103.
 File: 3.jpg Graphic file (type bmp)
 <3.jpg>
 File: 4.jpg Graphic file (type bmp)
 <4.jpg>
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 140
+ [1
+
+]
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 137
 .
 
 (c:/texlive/2017/texmf-dist/tex/latex/lm/ts1lmss.fd
@@ -1129,9 +1127,11 @@ File: 7.jpg Graphic file (type bmp)
 <7.jpg>
 File: 5.jpg Graphic file (type bmp)
 <5.jpg>
+File: qr.jpg Graphic file (type bmp)
+<qr.jpg>
 File: URLdoranyan.png Graphic file (type bmp)
 <URLdoranyan.png>
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 177.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 185.
 
 
 (c:/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1146,4 +1146,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  36i,5n,38p,10368b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cm3.dvi (2 pages, 4320 bytes).
+Output written on cm3.dvi (2 pages, 4344 bytes).
