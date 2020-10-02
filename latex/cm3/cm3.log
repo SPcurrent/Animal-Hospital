@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  30 SEP 2020 23:04
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2020.6.5)  2 OCT 2020 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,21 +1129,19 @@ File: 5.jpg Graphic file (type bmp)
 <5.jpg>
 File: qr.jpg Graphic file (type bmp)
 <qr.jpg>
-File: URLdoranyan.png Graphic file (type bmp)
-<URLdoranyan.png>
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 185.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 191.
 
 
 (c:/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [2] (./cm3.aux) ) 
 Here is how much of TeX's memory you used:
- 19421 strings out of 493638
- 366099 string characters out of 6151702
+ 19417 strings out of 493638
+ 366003 string characters out of 6151702
  412781 words of memory out of 5000000
- 22764 multiletter control sequences out of 15000+600000
+ 22762 multiletter control sequences out of 15000+600000
  595348 words of font info for 124 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  36i,5n,38p,10368b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cm3.dvi (2 pages, 4344 bytes).
+Output written on cm3.dvi (2 pages, 4544 bytes).
