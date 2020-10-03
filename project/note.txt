@@ -2,9 +2,10 @@ news-log
 
 
 
-<li class="timewhat"><div>2020.05.17</div>　<a href="https://twitter.com/SPcurrent/status/1261961077572550656">八尾にて一斉手術実施</a></li>
+<li class="timewhat"><div>2020.09.25</div>　<a href="">ボストンテリア10月3日出産予定</a></li>
 
-<li class="timewhat"><div>2020.04.18</div>　<a href="https://ameblo.jp/miyamama2525/entry-12582785759.html">八尾にて一斉手術実施</a></li>
+
+
 
 <li class="timewhat"><div>2020.05.24</div>　<a href="https://sites.google.com/site/itaminekoclinic/">伊丹ねこスぺイクリニックの大塚獣医師がご来院</a></li>
 
