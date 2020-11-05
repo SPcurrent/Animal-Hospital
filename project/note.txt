@@ -1,11 +1,9 @@
 news-log
 
 
+<li class="timewhat"><div>2020.05.24</div>　<a href="https://sites.google.com/site/itaminekoclinic/">伊丹ねこスぺイクリニックの大塚獣医師がご来院</a></li>
 
 <li class="timewhat"><div>2020.09.25</div>　<a href="">ボストンテリア10月3日出産予定</a></li>
-
-
-
 
 <li class="timewhat"><div>2020.05.24</div>　<a href="https://sites.google.com/site/itaminekoclinic/">伊丹ねこスぺイクリニックの大塚獣医師がご来院</a></li>
 
